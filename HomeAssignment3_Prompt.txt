@@ -1,0 +1,21 @@
+Context:
+  Generate a resume for Quality Analyst with 5 years experience
+
+   Instructions:
+   [MANDATORY] Include functional testing skills
+   [CRITICAL] Include API testing skills
+   [MANDATORY] Include Automation testing skills
+   [MANDATORY] Include Regression testing, Smoke testing, Sanity testing skills
+   [MANDATORY] Include BE and Mtech Qualification
+   [MANDATORY] Include experience in Fingent and Infosys
+   [MANDATORY] Include hobbies Travelling, Listening to Music 
+
+   Example:
+   Title: Sowmya
+   Description: Quality Analyst with 5 years experience in software testing
+   
+    Persona
+    Please include testing experience in Manual and automation testing
+
+Output :
+Downloadable word and pdf files
