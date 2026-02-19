@@ -1,0 +1,33 @@
+{
+    "id": "chatcmpl-a1d4188a-d894-49a0-ab73-c2079619db25",
+    "object": "chat.completion",
+    "created": 1771521315,
+    "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+    "choices": [
+        {
+            "index": 0,
+            "message": {
+                "role": "assistant",
+                "content": "Here are the test cases derived from the provided User Story and Acceptance Criteria:\n\n**TC_ID: 1**\n- **Title**: Record Doctor Activity - Valid Input\n- **Preconditions**: The system is operational, and the user is logged in with the necessary permissions.\n- **Test Steps**:\n  1. Navigate to the doctor activity recording section.\n  2. Enter a valid doctor activity.\n  3. Save the activity.\n- **Test Data**: Valid doctor activity description.\n- **Expected Result Type**: Positive\n- **Description**: The system records the doctor activity successfully.\n\n**TC_ID: 2**\n- **Title**: Record Doctor Notes - Valid Input\n- **Preconditions**: The system is operational, and the user is logged in with the necessary permissions.\n- **Test Steps**:\n  1. Navigate to the doctor notes section.\n  2. Enter valid doctor notes.\n  3. Save the notes.\n- **Test Data**: Valid doctor notes.\n- **Expected Result Type**: Positive\n- **Description**: The system records the doctor notes successfully.\n\n**TC_ID: 3**\n- **Title**: Record Doctor Activity - Empty Input\n- **Preconditions**: The system is operational, and the user is logged in with the necessary permissions.\n- **Test Steps**:\n  1. Navigate to the doctor activity recording section.\n  2. Leave the doctor activity field empty.\n  3. Attempt to save the activity.\n- **Test Data**: Empty field.\n- **Expected Result Type**: Negative\n- **Description**: The system prevents saving the doctor activity and displays an error message.\n\n**TC_ID: 4**\n- **Title**: Record Doctor Notes - Empty Input\n- **Preconditions**: The system is operational, and the user is logged in with the necessary permissions.\n- **Test Steps**:\n  1. Navigate to the doctor notes section.\n  2. Leave the doctor notes field empty.\n  3. Attempt to save the notes.\n- **Test Data**: Empty field.\n- **Expected Result Type**: Negative\n- **Description**: The system prevents saving the doctor notes and displays an error message.\n\n**TC_ID: 5**\n- **Title**: Record Doctor Activity - Special Characters\n- **Preconditions**: The system is operational, and the user is logged in with the necessary permissions.\n- **Test Steps**:\n  1. Navigate to the doctor activity recording section.\n  2. Enter a doctor activity with special characters.\n  3. Save the activity.\n- **Test Data**: Doctor activity with special characters.\n- **Expected Result Type**: Positive\n- **Description**: The system records the doctor activity with special characters successfully.\n\n**TC_ID: 6**\n- **Title**: Record Doctor Notes - Special Characters\n- **Preconditions**: The system is operational, and the user is logged in with the necessary permissions.\n- **Test Steps**:\n  1. Navigate to the doctor notes section.\n  2. Enter doctor notes with special characters.\n  3. Save the notes.\n- **Test Data**: Doctor notes with special characters.\n- **Expected Result Type**: Positive\n- **Description**: The system records the doctor notes with special characters successfully.\n\n**TC_ID: 7**\n- **Title**: Record Doctor Activity - Long Input\n- **Preconditions**: The system is operational, and the user is logged in with the necessary permissions.\n- **Test Steps**:\n  1. Navigate to the doctor activity recording section.\n  2. Enter a doctor activity that exceeds the character limit.\n  3. Save the activity.\n- **Test Data**: Doctor activity exceeding character limit.\n- **Expected Result Type**: Negative\n- **Description**: The system prevents saving the doctor activity and displays an error message.\n\n**TC_ID: 8**\n- **Title**: Record Doctor Notes - Long Input\n- **Preconditions**: The system is operational, and the user is logged in with the necessary permissions.\n- **Test Steps**:\n  1. Navigate to the doctor notes section.\n  2. Enter doctor notes that exceed the character limit.\n  3. Save the notes.\n- **Test Data**: Doctor notes exceeding character limit.\n- **Expected Result Type**: Negative\n- **Description**: The system prevents saving the doctor notes and displays an error message.\n\n**TC_ID: 9**\n- **Title**: View Recorded Doctor Activity\n- **Preconditions**: A doctor activity has been recorded.\n- **Test Steps**:\n  1. Navigate to the section displaying recorded doctor activities.\n  2. Verify the recorded activity is displayed.\n- **Test Data**: Recorded doctor activity.\n- **Expected Result Type**: Positive\n- **Description**: The recorded doctor activity is displayed correctly.\n\n**TC_ID: 10**\n- **Title**: View Recorded Doctor Notes\n- **Preconditions**: Doctor notes have been recorded.\n- **Test Steps**:\n  1. Navigate to the section displaying recorded doctor notes.\n  2. Verify the recorded notes are displayed.\n- **Test Data**: Recorded doctor notes.\n- **Expected Result Type**: Positive\n- **Description**: The recorded doctor notes are displayed correctly.\n\nEach test case covers a specific scenario related to recording doctor activities and notes, ensuring that the system responds accurately and meets functional expectations."
+            },
+            "logprobs": null,
+            "finish_reason": "stop"
+        }
+    ],
+    "usage": {
+        "queue_time": 0.045263878,
+        "prompt_tokens": 302,
+        "prompt_time": 0.009017182,
+        "completion_tokens": 1085,
+        "completion_time": 2.496147714,
+        "total_tokens": 1387,
+        "total_time": 2.505164896
+    },
+    "usage_breakdown": null,
+    "system_fingerprint": "fp_79da0e0073",
+    "x_groq": {
+        "id": "req_01khvec2hnfwht4jgfn6p0dkn6",
+        "seed": 273522805
+    },
+    "service_tier": "on_demand"
+}

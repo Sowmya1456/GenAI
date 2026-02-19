@@ -1,0 +1,11 @@
+{
+  "messages": [
+    {
+      "role": "user",
+      "content": "Extract the below given DOM : \n\n<input type=\"text\" class=\"inputBox\" name=\"companyName\" size=\"30\" maxlength=\"100\" id=\"createLeadForm_companyName\">\n<input type=\"text\" class=\"inputBox\" name=\"lastName\" size=\"30\" maxlength=\"100\" id=\"createLeadForm_lastName\">\n<input type=\"text\" class=\"inputBox\" name=\"firstName\" size=\"30\" maxlength=\"100\" id=\"createLeadForm_firstName\">\n<input type=\"submit\" class=\"smallSubmit\" name=\"submitButton\" value=\"Create Lead\" id=\"ext-gen630\"> and provide me the selenium java code. Instructions: Do not use ID if the value has number in it. Provide only java code and no explanations needed"
+    }
+  ],
+  "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+  "temperature": 0.1
+  //"include_reasoning": true
+}

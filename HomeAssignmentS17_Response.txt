@@ -1,0 +1,33 @@
+{
+    "id": "chatcmpl-c9b42803-7bc9-4900-a0c5-ea049f84e51c",
+    "object": "chat.completion",
+    "created": 1771522042,
+    "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+    "choices": [
+        {
+            "index": 0,
+            "message": {
+                "role": "assistant",
+                "content": "```java\nimport org.openqa.selenium.By;\nimport org.openqa.selenium.WebDriver;\nimport org.openqa.selenium.WebElement;\nimport org.openqa.selenium.chrome.ChromeDriver;\n\npublic class Main {\n    public static void main(String[] args) {\n        System.setProperty(\"webdriver.chrome.driver\", \"/path/to/chromedriver\");\n        WebDriver driver = new ChromeDriver();\n        driver.get(\"your_website_url\");\n\n        WebElement companyNameInput = driver.findElement(By.name(\"companyName\"));\n        WebElement lastNameInput = driver.findElement(By.name(\"lastName\"));\n        WebElement firstNameInput = driver.findElement(By.name(\"firstName\"));\n        WebElement submitButton = driver.findElement(By.className(\"smallSubmit\"));\n\n        companyNameInput.sendKeys(\"Company Name\");\n        lastNameInput.sendKeys(\"Last Name\");\n        firstNameInput.sendKeys(\"First Name\");\n        submitButton.click();\n\n        driver.quit();\n    }\n}\n```"
+            },
+            "logprobs": null,
+            "finish_reason": "stop"
+        }
+    ],
+    "usage": {
+        "queue_time": 0.045690727,
+        "prompt_tokens": 166,
+        "prompt_time": 0.006112841,
+        "completion_tokens": 187,
+        "completion_time": 0.444999911,
+        "total_tokens": 353,
+        "total_time": 0.451112752
+    },
+    "usage_breakdown": null,
+    "system_fingerprint": "fp_37da608fc1",
+    "x_groq": {
+        "id": "req_01khvf2a7gepxr715bmem6qdkx",
+        "seed": 1973448682
+    },
+    "service_tier": "on_demand"
+}

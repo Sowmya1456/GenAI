@@ -1,0 +1,9 @@
+{
+  "model": "groq/compound-mini",
+  "messages": [
+    {
+        "role": "user",
+      "content": "weather in Bangalore for jan 19 2026 --Only the temperatue for the date asked no probability or text and source from web with link no extrat text or markdown Give accurately with Web search no Halluciantion "
+    }
+  ]
+}

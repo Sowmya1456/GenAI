@@ -1,0 +1,33 @@
+{
+    "id": "chatcmpl-2861d2da-dd40-45a3-9b93-4df5b11bf8d1",
+    "object": "chat.completion",
+    "created": 1771521373,
+    "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+    "choices": [
+        {
+            "index": 0,
+            "message": {
+                "role": "assistant",
+                "content": "1. Valid Patient Registration with Complete Details.\n2. Patient Registration with Missing Required Fields.\n3. Registration with Invalid Patient Identification Number.\n4. Successful Registration with Insurance Details.\n5. Registration with Incorrect Admission Type.\n6. Patient Registration with Duplicate Patient ID.\n7. Inpatient Registration with Multiple Insurance Providers.\n8. Validation of Patient Address and Contact Information.\n9. Registration Confirmation with Unique Patient Identifier.\n10. Emergency Admission Registration with Minimal Patient Details."
+            },
+            "logprobs": null,
+            "finish_reason": "stop"
+        }
+    ],
+    "usage": {
+        "queue_time": 0.045007141,
+        "prompt_tokens": 130,
+        "prompt_time": 0.003443467,
+        "completion_tokens": 92,
+        "completion_time": 0.220994188,
+        "total_tokens": 222,
+        "total_time": 0.224437655
+    },
+    "usage_breakdown": null,
+    "system_fingerprint": "fp_37da608fc1",
+    "x_groq": {
+        "id": "req_01khvedxcye1faj38xnzz3fdnc",
+        "seed": 1791845750
+    },
+    "service_tier": "on_demand"
+}

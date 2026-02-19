@@ -1,0 +1,33 @@
+{
+    "id": "chatcmpl-9002ef71-dc0e-4d4e-902d-1ffe56d310b6",
+    "object": "chat.completion",
+    "created": 1771521186,
+    "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+    "choices": [
+        {
+            "index": 0,
+            "message": {
+                "role": "assistant",
+                "content": "- WCAG_Level: A\n- WCAG_Criterion: 1.1.1 Non-text Content \n- Observation: The image with url \"http://leaftaps.com/opentaps_images/opentaps_logo.png\" does not have a text alternative.\n- Compliance_Status: Non-Compliant\n- Evidence: image url: http://leaftaps.com/opentaps_images/opentaps_logo.png\n\n- WCAG_Level: A\n- WCAG_Criterion: 1.3.1 Info and Relationships \n- Observation: The StaticText \"Username\" and \"Password\" are not associated with their corresponding textboxes.\n- Compliance_Status: Non-Compliant\n- Evidence: paragraph > LabelText > StaticText \"Username\" and textbox \"Username\", paragraph > LabelText > StaticText \"Password\" and textbox \"Password\"\n\n- WCAG_Level: A\n- WCAG_Criterion: 1.3.2 Meaningful Sequence \n- Observation: The order of the elements in the Accessibility DOM seems logical.\n- Compliance_Status: Compliant\n- Evidence: The provided Accessibility DOM\n\n- WCAG_Level: A\n- WCAG_Criterion: 2.1.1 Keyboard Navigation \n- Observation: The textbox \"Username\", textbox \"Password\" and button \"Login\" are focusable.\n- Compliance_Status: Compliant\n- Evidence: textbox \"Username\" > focusable: true, textbox \"Password\" > focusable: true, button \"Login\" > focusable: true\n\n- WCAG_Level: A\n- WCAG_Criterion: 3.1.1 Language of Page \n- Observation: The language of the page is not specified.\n- Compliance_Status: Potential Risk\n- Evidence: The provided Accessibility DOM\n\n- WCAG_Level: AA\n- WCAG_Criterion: 1.4.7 Low or No Background \n- Observation: There is no information about the background and text color.\n- Compliance_Status: Potential Risk\n- Evidence: The provided Accessibility DOM\n\n- WCAG_Level: AA\n- WCAG_Criterion: 2.4.6 Headings and Labels \n- Observation: The labels \"Username\" and \"Password\" are provided but not programmatically associated.\n- Compliance_Status: Non-Compliant\n- Evidence: paragraph > LabelText > StaticText \"Username\" and textbox \"Username\", paragraph > LabelText > StaticText \"Password\" and textbox \"Password\"\n\n- WCAG_Level: AAA\n- WCAG_Criterion: 1.4.10 Content on Hover or Focus \n- Observation: There is no information about the content on hover or focus.\n- Compliance_Status: Potential Risk\n- Evidence: The provided Accessibility DOM"
+            },
+            "logprobs": null,
+            "finish_reason": "stop"
+        }
+    ],
+    "usage": {
+        "queue_time": 0.070121735,
+        "prompt_tokens": 524,
+        "prompt_time": 0.018452328,
+        "completion_tokens": 548,
+        "completion_time": 1.266669098,
+        "total_tokens": 1072,
+        "total_time": 1.285121426
+    },
+    "usage_breakdown": null,
+    "system_fingerprint": "fp_79da0e0073",
+    "x_groq": {
+        "id": "req_01khve85fxft8snhrq99b9t11k",
+        "seed": 497534107
+    },
+    "service_tier": "on_demand"
+}
